@@ -120,7 +120,7 @@ local maxVehAttempts = 10
                 type = 'error',
             })
 
-            return false                                                 -- Stop execution completely
+            return false
         end
         Wait(1)
     until vehAttempts == maxVehAttempts
@@ -282,4 +282,5 @@ AddEventHandler('onResourceStop', function(resourceName)
     DeleteEntity(exporterPed)
     DeleteEntity(clipboard)
     DeleteEntity(workTruck)
+
 end)
