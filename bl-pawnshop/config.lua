@@ -12,7 +12,7 @@ Config.exporterVanHash = 'bobcatxl'
 Config.exporterPedHash = 's_m_m_autoshop_02'
 Config.animDic = {'anim@amb@business@bgen@bgen_no_work@', 'stand_phone_phoneputdown_idle-noworkfemale'}
 
-Config.Tray = { --Sell tray labls
+Config.Tray = { 
     label = 'Open Tray',
     stashLabel = 'Tray',
     coords = vec4(173.84, -1322.43, 29.36, 140.42),
@@ -24,7 +24,7 @@ Config.Tray = { --Sell tray labls
     groups = nil
 }
 
-Config.BossStash = { --boss stash labels 
+Config.BossStash = { 
     label = 'Open Stash',
     stashLabel = 'Boss Stash',
     coords = vector4(161.71, -1312.81, 28.63, 242.67),
@@ -36,11 +36,11 @@ Config.BossStash = { --boss stash labels
     groups = nil
 }
 
-Config.SellableItems = { -- what the pawnshop offers coustmoer 
+Config.SellableItems = { 
     ["diamond_ring"] = 100,
     ["rolex"] = 200,
 }
-Config.ExporterSeller = { --what the exporter offers the pawnshop 
+Config.ExporterSeller = {
     ["diamond_ring"] = 200,
     ["rolex"] = 400,
 }
@@ -132,4 +132,5 @@ Config.ExporterInteraction = { -- Wouldnt Touch This Endless you read the dialog
             close = true
         },
     }
+
 }
